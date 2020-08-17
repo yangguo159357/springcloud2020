@@ -8,11 +8,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>cloud-provider-payment8004</artifactId>
+
+    <artifactId>cloud-consumerzk-order80</artifactId>
 
     <dependencies>
 
-        <!--引用自己定义的api通用包,可以使用Payment支付Entity-->
         <dependency>
             <groupId>com.xiaolun.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
@@ -31,13 +31,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- 只有这个是新的。SpringBoot整合Zookeeper客户端
-            jar包冲突报错，jar包的排除和引入
-         -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
@@ -78,4 +71,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>
