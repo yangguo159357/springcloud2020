@@ -24,7 +24,7 @@
             <optional>true</optional>
         </dependency>
 
-        <!--简单方法特点复杂方法-->
+        <!--Java工具包，用来简化代码-->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
