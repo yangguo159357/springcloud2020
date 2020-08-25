@@ -1,5 +1,5 @@
 server:
-  port: 9011 #9001端口被占用
+  port: 9012
 
 spring:
   application:
@@ -7,7 +7,8 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848 #配置Nacos地址
+#        server-addr: localhost:8848 #配置Nacos地址
+        server-addr: 192.168.10.101:1111 #配置Nacos集群地址，先将地址给nginx,让其进行转发
 
 management:
   endpoints:

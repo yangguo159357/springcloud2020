@@ -1,5 +1,5 @@
 server:
-  port: 9011 #9001端口被占用
+  port: 9003
 
 spring:
   application:
@@ -14,7 +14,3 @@ management:
     web:
       exposure:
         include: '*'
-
-
-
-

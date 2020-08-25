@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: dev
+#    active: test  #读取nacos-config-client-test.yaml中的配置
+#     active: info #对应bootstrap.yml的分组配置
